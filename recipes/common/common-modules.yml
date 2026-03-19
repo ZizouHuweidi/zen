@@ -43,7 +43,7 @@ modules:
       install-weak-deps: false
       packages:
         # terminal tools
-        - ghostty
+        - kitty
         - fish
         - starship
         - zoxide
@@ -57,7 +57,8 @@ modules:
         - ripgrep
         - fd
         - gdu
-        - htop
+        - btop
+        - podman-compose
 
         # code
         - code
