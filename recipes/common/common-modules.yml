@@ -47,7 +47,6 @@ modules:
         - fish
         - starship
         - zoxide
-        - yazi
         - zathura
         - zathura-plugins-all
         - lsd
@@ -56,8 +55,6 @@ modules:
         - neovim
         - ripgrep
         - fd
-        - gdu
-        - btop
         - podman-compose
 
         # code
@@ -137,7 +134,6 @@ modules:
         - gnome-themes-extra
         - gnome-icon-theme
         - paper-icon-theme
-        - breeze-icon-theme
         - papirus-icon-theme
     replace:
       - from-repo: fedora
