@@ -20,4 +20,5 @@ modules:
         - cliphist
         - gammastep
         - gammastep-indicator
-        - nwg-look
+        - tesseract
+        - swappy
