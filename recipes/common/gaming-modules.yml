@@ -7,6 +7,5 @@ modules:
     install:
       packages:
         - steam
-        - lutris
         - mangohud
         - gamescope
