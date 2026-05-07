@@ -4,6 +4,7 @@ modules:
       install-weak-deps: false
       packages:
         - gnome-tweaks
+        - nautilus-gsconnect
 
   - type: gnome-extensions
     install:
@@ -15,15 +16,27 @@ modules:
       # if you encounter the scenario where there are multiple extensions with the same name.
       # You don't need to look & search for this scenario, since module will automatically fail & inform you to put PK ID number instead
       - 517
+      - 779
       - GSConnect
 
-  # - type: gschema-overrides
-  #   include:
-  #     - zz1-myoverride.gschema.override # test & compile specific override file included in files/gschema-overrides/zz1-myoverride.gschema.override
+  - type: bling
+    install:
+      - dconf-update-service
+
+  - type: gschema-overrides
+    include:
+      - zz1-gnome.gschema.override
+
+  - type: files
+    files:
+      - source: system/usr/share/backgrounds
+        destination: /usr/share/backgrounds
+      - source: system/etc/dconf
+        destination: /etc/dconf
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         install:
           - com.mattjakeman.ExtensionManager

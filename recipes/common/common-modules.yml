@@ -55,6 +55,8 @@ modules:
         - ripgrep
         - fd
         - podman-compose
+        - podman-docker
+        - podman-tui
 
         # code
         - code
