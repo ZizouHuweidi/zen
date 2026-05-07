@@ -61,6 +61,8 @@ modules:
         - zed
 
         # environment
+        - rofi
+        - gnome-disk-utility
         - tuned-ppd
         - syncthing
         - xorg-x11-server-Xwayland
@@ -70,14 +72,12 @@ modules:
         - xdg-user-dirs
         - dbus-tools
         - dbus-daemon
-        - pavucontrol
         - playerctl
         - qt5-qtwayland
         - qt6-qtwayland
         - vulkan-validation-layers
         - vulkan-tools
         - google-noto-emoji-fonts
-        - gnome-disk-utility
         - ddcutil
         - openssl
         - vim

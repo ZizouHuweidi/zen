@@ -1,0 +1,16 @@
+name: zen-gnome-nvidia
+
+description: OS image focused on a clean dev setup (gnome nvidia version)
+
+base-image: quay.io/fedora-ostree-desktops/silverblue
+
+image-version: 44
+
+modules:
+  - from-file: common/common-modules.yml
+  - from-file: common/nvidia-open-modules.yml
+  - from-file: common/gaming-modules.yml
+  - from-file: common/gnome-modules.yml
+  - from-file: common/final-modules.yml
+
+  - type: signing

@@ -1,6 +1,6 @@
 # zen
 
-bootc images focused on a clean dev and general use setup.
+bootc images focused on a clean dev setup.
 
 ## Installation
 

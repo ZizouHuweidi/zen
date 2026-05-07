@@ -13,13 +13,13 @@ modules:
         - brightnessctl
         - kanshi
         - polkit
+        - pavucontrol
         - xfce-polkit
         - dunst
         - wl-mirror
         - wdisplays
         - cliphist
         - wl-clipboard
-        - rofi
         - rofimoji
         - gammastep
         - thunar

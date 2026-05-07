@@ -1,0 +1,30 @@
+modules:
+  - type: dnf
+    install:
+      install-weak-deps: false
+      packages:
+        - gnome-tweaks
+
+  - type: gnome-extensions
+    install:
+      - Blur my Shell # Notice how extension is named "Blur my Shell" & not "Blur My Shell"?
+      - AppIndicator and KStatusNotifierItem Support
+      - 307 # Dash-to-Dock
+      # https://extensions.gnome.org/extension/307/dash-to-dock/
+      # You can also specify PK ID number from the extension URL,
+      # if you encounter the scenario where there are multiple extensions with the same name.
+      # You don't need to look & search for this scenario, since module will automatically fail & inform you to put PK ID number instead
+      - 517
+      - GSConnect
+
+  # - type: gschema-overrides
+  #   include:
+  #     - zz1-myoverride.gschema.override # test & compile specific override file included in files/gschema-overrides/zz1-myoverride.gschema.override
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - com.mattjakeman.ExtensionManager
+      - scope: system
