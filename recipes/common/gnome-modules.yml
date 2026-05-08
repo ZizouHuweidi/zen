@@ -4,7 +4,7 @@ modules:
       install-weak-deps: false
       packages:
         - gnome-tweaks
-        # - nautilus-gsconnect
+        - nautilus-gsconnect
         # - gnome-shell-extension-gsconnect
     remove:
       packages:
@@ -12,20 +12,20 @@ modules:
         - gnome-user-docs
         - malcontent
 
-  # - type: gnome-extensions
-  #   install:
-  #     - Blur my Shell # Notice how extension is named "Blur my Shell" & not "Blur My Shell"?
-  #     - AppIndicator and KStatusNotifierItem Support
-  #     - 307 # Dash-to-Dock
-  #     - 7065 # Tiling Shell
-  #     # https://extensions.gnome.org/extension/307/dash-to-dock/
-  #     # You can also specify PK ID number from the extension URL,
-  #     # if you encounter the scenario where there are multiple extensions with the same name.
-  #     # You don't need to look & search for this scenario, since module will automatically fail & inform you to put PK ID number instead
-  #     - 517 # Caffeine
-  #     - 6670 # Bluetooth battery meter
-  #     - 8834 # Clipboard
-  #     # - 6325 ## monitor brightness and volume
+  - type: gnome-extensions
+    install:
+      - Blur my Shell # Notice how extension is named "Blur my Shell" & not "Blur My Shell"?
+      - AppIndicator and KStatusNotifierItem Support
+      - 307 # Dash-to-Dock
+      - 7065 # Tiling Shell
+      # https://extensions.gnome.org/extension/307/dash-to-dock/
+      # You can also specify PK ID number from the extension URL,
+      # if you encounter the scenario where there are multiple extensions with the same name.
+      # You don't need to look & search for this scenario, since module will automatically fail & inform you to put PK ID number instead
+      - 517 # Caffeine
+      - 6670 # Bluetooth battery meter
+      - 8834 # Clipboard
+      # - 6325 ## monitor brightness and volume
 
   - type: bling
     install:
