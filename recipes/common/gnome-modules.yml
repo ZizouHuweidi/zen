@@ -11,6 +11,7 @@ modules:
         - gnome-tour
         - gnome-user-docs
         - malcontent
+        - yelp
 
   - type: gnome-extensions
     install:
