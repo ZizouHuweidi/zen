@@ -160,6 +160,8 @@ modules:
   - type: script
     scripts:
       - addbrewjustimport.sh
+      - kdeconnectports.sh
+      - startsyncthing.sh
 
   - type: chezmoi
     repository: "https://github.com/zizouhuweidi/dotfiles"

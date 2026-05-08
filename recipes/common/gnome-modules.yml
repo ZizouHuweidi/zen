@@ -4,7 +4,7 @@ modules:
       install-weak-deps: false
       packages:
         - gnome-tweaks
-        - nautilus-gsconnect
+        # - nautilus-gsconnect
         # - gnome-shell-extension-gsconnect
     remove:
       packages:
