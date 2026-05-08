@@ -17,7 +17,6 @@ modules:
       # You don't need to look & search for this scenario, since module will automatically fail & inform you to put PK ID number instead
       - 517
       - 779
-      - GSConnect
 
   - type: bling
     install:
