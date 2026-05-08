@@ -6,11 +6,11 @@ modules:
         - gnome-tweaks
         # - nautilus-gsconnect
         # - gnome-shell-extension-gsconnect
-      remove:
-        packages:
-          - gnome-tour
-          - gnome-user-docs
-          - malcontent
+    remove:
+      packages:
+        - gnome-tour
+        - gnome-user-docs
+        - malcontent
 
   - type: gnome-extensions
     install:
