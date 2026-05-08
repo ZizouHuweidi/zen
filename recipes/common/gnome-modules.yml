@@ -27,6 +27,7 @@ modules:
       - 6670 # Bluetooth battery meter
       - 8834 # Clipboard
       - 4691 # PiP Rules
+      - 1460 # vitals
       # - 6325 ## monitor brightness and volume
 
   - type: bling
