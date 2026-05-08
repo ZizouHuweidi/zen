@@ -39,6 +39,7 @@ modules:
       files:
         - terra.repo
         - code.repo
+        - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
     install:
       install-weak-deps: false
       packages:
@@ -57,6 +58,7 @@ modules:
         - podman-compose
         - podman-docker
         - podman-tui
+        - tailscale
 
         # code
         - code
@@ -64,6 +66,9 @@ modules:
 
         # environment
         - rofi
+        - wireguard-tools
+        - rclone
+        - waypipe
         - gnome-disk-utility
         - tuned-ppd
         - syncthing

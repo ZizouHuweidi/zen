@@ -1,6 +1,6 @@
 # zen
 
-bootc images focused on a clean dev setup.
+bootc images for a clean dev setup.
 
 ## Installation
 
@@ -12,7 +12,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/zizouhuweidi/zen:latest
   ```
 
-  other images available: zen-nvidia
+  other images available: zen-nvidia, zen-sway, zen-sway-nvidia
 
 - Reboot to complete the rebase:
 
