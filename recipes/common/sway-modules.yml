@@ -23,6 +23,7 @@ modules:
         - rofimoji
         - gammastep
         - thunar
+        - kde-connect
         - network-manager-applet
         - bluez
         - bluez-tools

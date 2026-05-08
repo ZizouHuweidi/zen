@@ -104,7 +104,6 @@ modules:
         - NetworkManager-openconnect-gnome
         - firewall-config
         - net-tools
-        - kde-connect
 
         - xarchiver
         - imv
@@ -165,7 +164,6 @@ modules:
         install:
           - com.github.tchx84.Flatseal
           - com.google.Chrome
-          - io.github.kolunmi.Bazaar
           - md.obsidian.Obsidian
           - it.mijorus.gearlever
           - com.bitwarden.desktop
