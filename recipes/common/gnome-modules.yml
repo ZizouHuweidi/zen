@@ -40,4 +40,5 @@ modules:
         scope: system
         install:
           - com.mattjakeman.ExtensionManager
+          - page.tesk.Refine
       - scope: system

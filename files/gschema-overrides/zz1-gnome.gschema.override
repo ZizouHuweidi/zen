@@ -15,9 +15,6 @@ numlock-state=true
 color-scheme='prefer-dark'
 gtk-theme='Adwaita-dark'
 cursor-theme='Adwaita'
-font-name='FiraCode Nerd Font Mono 8'
-document-font-name='FiraCode Nerd Font Mono 8'
-monospace-font-name='FiraCode Nerd Font Mono 8'
 clock-show-weekday=true
 enable-hot-corners=true
 
@@ -46,7 +43,6 @@ switch-to-application-7=[]
 switch-to-application-8=[]
 switch-to-application-9=[]
 
-# Workspace behavior approximating your Sway config.
 [org.gnome.desktop.wm.keybindings]
 switch-to-workspace-1=['<Super>1', '<Super>KP_1']
 switch-to-workspace-2=['<Super>2', '<Super>KP_2']
