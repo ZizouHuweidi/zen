@@ -1,0 +1,27 @@
+modules:
+  - type: dnf
+    repos:
+      cleanup: true
+      copr:
+        - ligenix/cosmic-ext
+    install:
+      packages:
+        #- cosmic-reader
+        - cosmic-ext-calculator
+        - cosmic-ext-storage
+        - cosmic-ext-applet-clipboard-manager
+        - cosmic-ext-noctua
+        - cosmic-ext-applet-sysinfo
+        - cosmic-ext-applet-logomenu
+        - cosmic-ext-xcalendar
+        - cosmic-ext-tasks
+        - cosmic-ext-camera
+
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: user
+        repo:
+          name: cosmic
+          title: COSMIC
+          url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo

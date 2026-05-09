@@ -30,6 +30,8 @@ jobs:
           - recipe-sway-nvidia.yml
           - recipe-gnome.yml
           - recipe-gnome-nvidia.yml
+          - recipe-cosmic.yml
+          - recipe-cosmic-nvidia.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
