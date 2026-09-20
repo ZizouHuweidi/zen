@@ -9,3 +9,4 @@ modules:
         - steam
         - mangohud
         - gamescope
+        - sdl2-compat.i686
