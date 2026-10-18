@@ -1,17 +1,12 @@
-modules:
-  - type: dnf
-    install:
-      install-weak-deps: false
-      packages:
-
-  - type: files
-    files:
-      - source: system/usr/share/backgrounds
-        destination: /usr/share/backgrounds
-
-  - type: default-flatpaks
-    configurations:
-      - notify: false
-        scope: system
-        install:
-      - scope: system
+# modules:
+#   - type: dnf
+#     install:
+#       install-weak-deps: false
+#       packages:
+#
+#   - type: default-flatpaks
+#     configurations:
+#       - notify: false
+#         scope: system
+#         install:
+#       - scope: system
