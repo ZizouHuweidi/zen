@@ -4,15 +4,12 @@ bootc images for a clean dev setup.
 
 ## Images
 
-| Desktop | Images |
-| --- | --- |
-| GNOME | `zen-gnome`, `zen-gnome-nvidia` |
-| Plasma | `zen-plasma`, `zen-plasma-nvidia` |
-| Sway | `zen-sway`, `zen-sway-nvidia` |
-| COSMIC | `zen-cosmic`, `zen-cosmic-nvidia` |
-
-Plasma images inherit Fedora Kinoite's desktop integrations and install Haruna,
-Okular, Gwenview, KCalc, KRDC and KColorChooser as system-wide Flatpaks from Flathub.
+| Desktop | Images                            |
+| ------- | --------------------------------- |
+| GNOME   | `zen-gnome`, `zen-gnome-nvidia`   |
+| Plasma  | `zen-plasma`, `zen-plasma-nvidia` |
+| Sway    | `zen-sway`, `zen-sway-nvidia`     |
+| COSMIC  | `zen-cosmic`, `zen-cosmic-nvidia` |
 
 ## Installation
 
@@ -21,7 +18,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
 
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/zizouhuweidi/zen-gnome:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/zizouhuweidi/{image-name}:latest
   ```
 
 - Reboot to complete the rebase:
@@ -33,7 +30,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 - Then rebase to the signed image, like so:
 
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/zizouhuweidi/zen-gnome:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/zizouhuweidi/{image-name}:latest
   ```
 
 - Reboot again to complete the installation
