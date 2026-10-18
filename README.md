@@ -2,6 +2,18 @@
 
 bootc images for a clean dev setup.
 
+## Images
+
+| Desktop | Images |
+| --- | --- |
+| GNOME | `zen-gnome`, `zen-gnome-nvidia` |
+| Plasma | `zen-plasma`, `zen-plasma-nvidia` |
+| Sway | `zen-sway`, `zen-sway-nvidia` |
+| COSMIC | `zen-cosmic`, `zen-cosmic-nvidia` |
+
+Plasma images inherit Fedora Kinoite's desktop integrations and install Haruna,
+Okular, Gwenview, KCalc, KRDC and KColorChooser as system-wide Flatpaks from Flathub.
+
 ## Installation
 
 To rebase an existing atomic Fedora installation to the latest build:
@@ -11,8 +23,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   rpm-ostree rebase ostree-unverified-registry:ghcr.io/zizouhuweidi/zen-gnome:latest
   ```
-
-  other images available: zen-gnome-nvidia, zen-sway, zen-sway-nvidia, zen-cosmic, zen-cosmic-nvidia
 
 - Reboot to complete the rebase:
 

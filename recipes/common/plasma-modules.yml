@@ -1,13 +1,12 @@
 modules:
-  - type: dnf
-    install:
-      install-weak-deps: false
-      packages:
-        - kde-connect
-#
-#   - type: default-flatpaks
-#     configurations:
-#       - notify: false
-#         scope: system
-#         install:
-#       - scope: system
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: system
+        install:
+          - org.kde.haruna
+          - org.kde.okular
+          - org.kde.gwenview
+          - org.kde.kcalc
+          - org.kde.krdc
+          - org.kde.kcolorchooser
