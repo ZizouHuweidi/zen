@@ -1,8 +1,9 @@
-# modules:
-#   - type: dnf
-#     install:
-#       install-weak-deps: false
-#       packages:
+modules:
+  - type: dnf
+    install:
+      install-weak-deps: false
+      packages:
+        - kde-connect
 #
 #   - type: default-flatpaks
 #     configurations:
