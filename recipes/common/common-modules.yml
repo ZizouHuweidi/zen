@@ -130,7 +130,6 @@ modules:
         - gvfs-smb
         - gvfs-nfs
         - gvfs-fuse
-        - gvfs-archive
         - android-tools
 
         # theme and GUI
